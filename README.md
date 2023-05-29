@@ -7,16 +7,16 @@ The coding sources are based on [Udemy modern c++20 masterclass](https://www.ude
 
 ### 1.1 c++11
 
-### 1.1 c++14
+### 1.2 c++14
 
-### 1.1 c++17
+### 1.3 c++17
 
-### 1.1 c++20
+### 1.4 c++20
 
-### 1.1 c++23
+### 1.5 c++23
 
 ## 2. Memorandum and summary of c++ codes
 
-### Code_01
+### Code 01
 
-### Code_02
+### Code 02
