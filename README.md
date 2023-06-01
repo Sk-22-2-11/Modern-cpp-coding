@@ -1,20 +1,4 @@
 
-
-C++11:
-
-
-C++14:
-
-
-C++17:
-
-
-C++20:
-
-
-C++23 (upcoming):
-
-
 # Modern C++: coding practices with new features
 
 The coding sources are based on [Udemy modern c++20 masterclass](https://www.udemy.com/course/the-modern-cpp-20-masterclass/).
