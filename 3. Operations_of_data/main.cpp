@@ -387,6 +387,7 @@ class Show_Case{
     private:
         Basic_Oprt basic_op;
         Spec_Oprt spec_op;
+	Out_Format out_format;
     public:
         int flag {0};
 
@@ -417,7 +418,7 @@ class Show_Case{
                 spec_op.logical_op();
             }
             else if (flag == 3){
-
+		out_format.show_farmats();
             }
             else{
                 std::cerr << "Wrong input!" << std::endl;
@@ -447,5 +448,6 @@ int main(){
         
     }  
 
+    show_c.say_bye();	
     return 0;
 }

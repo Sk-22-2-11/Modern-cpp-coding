@@ -67,8 +67,6 @@ The new versions have made the language more expressive, reduced boilerplate cod
 
 ### 00 - Settings of VS Code
 
-
-
 ### Code 01 - basic template of mordern c++ coding using VSC
 
 cout:
@@ -102,35 +100,30 @@ Unlike cin, getline() does not leave the newline character ('\n') in the input s
 
 ### Code 02 - built-in data types
 
-Integer Types:
-int- Represents signed integers with a typical range of at least -32,767 to 32,767.
-short- Represents signed short integers with a smaller range than int.
-long- Represents signed long integers with a larger range than int.
-long long- Represents signed long long integers with a larger range than long.
-
-Floating-Point Types:
-float- Represents single-precision floating-point numbers.
-double- Represents double-precision floating-point numbers, which have higher precision than float.
-long double- Represents extended-precision floating-point numbers, which have even higher precision than double.
-
-Character Types:
-char- Represents single characters, such as letters, digits, or special symbols.
-char16_t- Represents 16-bit Unicode characters.
-char32_t- Represents 32-bit Unicode characters.
-wchar_t- Represents wide characters, typically used for extended character sets.
-
-Boolean Type:
-bool- Represents boolean values, which can be either true or false.
-
-Void Type:
-void- Represents the absence of a type. It is commonly used as a return type for functions that do not return a value.
-
+Integer Types；
+Floating-Point Types；
+Character Types；
+Boolean Type；
+Void Type；
 Other Types:
+unsigned modifiers；
+signed modifier；
+auto and decltype: These are type inference mechanisms that allow the compiler to deduce the type of a variable automatically based on its initializer or expression.
 
-unsigned modifiers- You can apply the unsigned modifier to integer types to represent only non-negative values, effectively doubling the positive range of the type.
+### Code 03 - data operations
 
-signed modifier- The signed modifier is used to explicitly specify a signed integer type, although it is optional as most integer types are signed by default.
+Precedence and associativity;
+Prefix and postfix of in/decrement;
+Compound assignment operators;
+Relational operators;
+Output formatting.
 
-auto and decltype- These are type inference mechanisms that allow the compiler to deduce the type of a variable automatically based on its initializer or expression.
+### Code 04 - process numeric types
 
-### Code 03(upcoming)
+include <limits>;
+include <cmath>;
+auto variable = (short int) + (short int);//auto -> int
+auto variable = (char) + (char);//auto -> int
+
+
+
