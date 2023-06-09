@@ -125,5 +125,44 @@ include <cmath>;
 auto variable = (short int) + (short int);//auto -> int
 auto variable = (char) + (char);//auto -> int
 
+### Code 05 - Constants
+
+const
+constexpr:
+The constexpr specifier declares that it is possible to evaluate the value of the function or variable at compile time.
+
+A constexpr variable must satisfy the following requirements:
+its type must be a LiteralType.
+it must be immediately initialized
+the full-expression of its initialization, including all implicit conversions, constructors calls, etc, must be a constant expression
+
+constinit:
+The constinit specifier declares a variable with static or thread storage duration.
+Constinit cannot be used together with constexpr or consteval.
+
+
+### Code 06 - Convertors
+
+implicit data conversions:
+The type conversion that is done automatically done by the compiler is known as implicit type conversion. This type of conversion is also known as automatic conversion.
+Data lost during conversion (Narrowing Conversion).
+
+explicit data conversions:
+When the user manually changes data from one type to another, this is known as explicit conversion. This type of conversion is also known as type casting.
+static_cast<>
+
+overflow and underflow
+
+### Code 06 - Convertors
+
+bitwise options:
+shift operators
+logical operators
+compound operators
+
+using masks
+
+pack color information by bit oprating
+
 
 
