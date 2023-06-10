@@ -105,7 +105,7 @@ class Show_Case{
         int flag {0};
 
         int show_menu(){
-            std::clog << "--- Data operations testing table: ---" << std::endl;
+            std::clog << "--- Testing table: ---" << std::endl;
             std::clog << "- 1 - Numeric limits" << std::endl;
             std::clog << "- 2 - Math functions" << std::endl;
             std::clog << "- 3 - Weird Integral Types" << std::endl;

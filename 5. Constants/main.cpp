@@ -144,7 +144,7 @@ class Show_Case{
         int flag {0};
 
         int show_menu(){
-            std::clog << "--- Data operations testing table: ---" << std::endl;
+            std::clog << "--- Testing table: ---" << std::endl;
             std::clog << "- 1 - Literal and Const" << std::endl;
             std::clog << "- 2 - Constexpr" << std::endl;
             std::clog << "- 3 - Constinit" << std::endl;

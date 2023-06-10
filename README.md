@@ -153,7 +153,7 @@ static_cast<>
 
 overflow and underflow
 
-### Code 06 - Convertors
+### Code 07 - Bitwise operators
 
 bitwise options:
 shift operators
@@ -163,6 +163,40 @@ compound operators
 using masks
 
 pack color information by bit oprating
+
+
+### Code 08 - Flow control and loops
+
+if constexpr
+flow control with initializers
+ternary operators
+nested loops
+
+size_t:
+std::size_t can store the maximum size of a theoretically possible object of any type (including array). A type whose size cannot be represented by std::size_t is ill-formed. On many platforms (an exception is systems with segmented addressing) std::size_t can safely store the value of any non-member pointer, in which case it is synonymous with std::uintptr_t.
+
+std::size_t is commonly used for array indexing and loop counting. Programs that use other types, such as unsigned int, for array indexing may fail on, e.g. 64-bit systems when the index exceeds UINT_MAX or if it relies on 32-bit modular arithmetic.
+
+When indexing C++ containers, such as std::string, std::vector, etc, the appropriate type is the member typedef size_type provided by such containers. It is usually defined as a synonym for std::size_t.
+
+
+### Code 09 - Array
+
+size of array:
+std:size() -> c++17
+sizeof(array)/sizeof(element)
+
+array initialization: 
+default set to 0
+
+array of charactors:
+char[] {"HelloWorld"}, OR cstring with {... , '\0'},
+
+multi dimension arrays
+
+mini program: Fortune Teller
+
+
 
 
 

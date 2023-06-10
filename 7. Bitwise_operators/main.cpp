@@ -177,7 +177,7 @@ class Show_Case{
         int flag {0};
 
         int show_menu(){
-            std::clog << "--- Data operations testing table: ---" << std::endl;
+            std::clog << "--- Testing table: ---" << std::endl;
             std::clog << "- 1 - Shift and logical operators" << std::endl;
             std::clog << "- 2 - Masks" << std::endl;
             std::clog << "- 3 - Color information" << std::endl;
