@@ -211,6 +211,7 @@ swap an array
 
 navigation
 distance between elements:
+std::ptrdiff_t
 
 comparing pointers
 swap an array
@@ -218,6 +219,18 @@ swap an array
 ### Code 12 - Dynamically allocate and pointer safety
 
 Dangling pointers
-Null pointer
+Null pointer:
+nullptr
+
 Dynamically allocate a pirece of memory
 Memory leak
+
+
+
+
+
+
+
+
+
+
