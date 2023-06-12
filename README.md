@@ -196,7 +196,28 @@ multi dimension arrays
 
 mini program: Fortune Teller
 
+### Code 10 - Basic pointers
 
+pointer
+array of pointer
 
+const pointer
+pointer to a const variable
 
+pointers and arrays
+swap an array
 
+### Code 11 - Pointer arithmetic
+
+navigation
+distance between elements:
+
+comparing pointers
+swap an array
+
+### Code 12 - Dynamically allocate and pointer safety
+
+Dangling pointers
+Null pointer
+Dynamically allocate a pirece of memory
+Memory leak
