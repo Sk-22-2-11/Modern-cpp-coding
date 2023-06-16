@@ -65,9 +65,9 @@ The new versions have made the language more expressive, reduced boilerplate cod
 
 ## 2. Memorandum and summary of c++ codes
 
-### 00 - Settings of VS Code
+### [00 - Settings of VS Code](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/.vscode/tasks.json)
 
-### Code 01 - basic template of mordern c++ coding using VSC
+### [Code 01 - basic template of mordern c++ coding using VSC](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/1.%20Basic_operations/main.cpp)
 
 cout:
 It is typically used for displaying regular output to the console or terminal.
@@ -98,7 +98,7 @@ getline():
 It allows you to read a full line of text as a string, which is useful when you need to process input that may contain spaces or multiple words.
 Unlike cin, getline() does not leave the newline character ('\n') in the input stream, discarding it after reading the line.
 
-### Code 02 - built-in data types
+### [Code 02 - built-in data types](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/2.%20Basic_data_types/main.cpp)
 
 Integer Types；
 Floating-Point Types；
@@ -110,7 +110,7 @@ unsigned modifiers；
 signed modifier；
 auto and decltype: These are type inference mechanisms that allow the compiler to deduce the type of a variable automatically based on its initializer or expression.
 
-### Code 03 - data operations
+### [Code 03 - data operations](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/3.%20Operations_of_data/main.cpp)
 
 Precedence and associativity;
 Prefix and postfix of in/decrement;
@@ -118,14 +118,14 @@ Compound assignment operators;
 Relational operators;
 Output formatting.
 
-### Code 04 - process numeric types
+### [Code 04 - process numeric types](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/4.%20Process_numeric_types/main.cpp)
 
 include <limits>;
 include <cmath>;
 auto variable = (short int) + (short int);//auto -> int
 auto variable = (char) + (char);//auto -> int
 
-### Code 05 - Constants
+### [Code 05 - Constants](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/5.%20Constants/main.cpp)
 
 const
 constexpr:
@@ -141,7 +141,7 @@ The constinit specifier declares a variable with static or thread storage durati
 Constinit cannot be used together with constexpr or consteval.
 
 
-### Code 06 - Convertors
+### [Code 06 - Convertors](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/6.%20Data_conversions/main.cpp)
 
 implicit data conversions:
 The type conversion that is done automatically done by the compiler is known as implicit type conversion. This type of conversion is also known as automatic conversion.
@@ -153,7 +153,7 @@ static_cast<>
 
 overflow and underflow
 
-### Code 07 - Bitwise operators
+### [Code 07 - Bitwise operators](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/7.%20Bitwise_operators/main.cpp)
 
 bitwise options:
 shift operators
@@ -165,7 +165,7 @@ using masks
 pack color information by bit oprating
 
 
-### Code 08 - Flow control and loops
+### [Code 08 - Flow control and loops](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/8.%20Flow_control_and_loops/main.cpp)
 
 if constexpr
 flow control with initializers
@@ -180,7 +180,7 @@ std::size_t is commonly used for array indexing and loop counting. Programs that
 When indexing C++ containers, such as std::string, std::vector, etc, the appropriate type is the member typedef size_type provided by such containers. It is usually defined as a synonym for std::size_t.
 
 
-### Code 09 - Array
+### [Code 09 - Array](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/9.%20Arrays/main.cpp)
 
 size of array:
 std:size() -> c++17
@@ -196,7 +196,7 @@ multi dimension arrays
 
 mini program: Fortune Teller
 
-### Code 10 - Basic pointers
+### [Code 10 - Basic pointers](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/10.%20Basic_pointers/main.cpp)
 
 pointer
 array of pointer
@@ -207,7 +207,7 @@ pointer to a const variable
 pointers and arrays
 swap an array
 
-### Code 11 - Pointer arithmetic
+### [Code 11 - Pointer arithmetic](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/11.%20Pointers_arithmetic/main.cpp)
 
 navigation
 distance between elements:
@@ -216,7 +216,7 @@ std::ptrdiff_t
 comparing pointers
 swap an array
 
-### Code 12 - Dynamically allocate and pointer safety
+### [Code 12 - Dynamically allocate and pointer safety](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/12.%20Dynamic_allocate_pointer_safety/main.cpp)
 
 Dangling pointers
 Null pointer:
