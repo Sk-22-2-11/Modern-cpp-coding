@@ -232,7 +232,7 @@ A reference variable is an alias, that is, another name for an already existing 
 
 A reference can be thought of as a constant pointer (not to be confused with a pointer to a constant value!) with automatic indirection, i.e., the compiler will apply the * operator for you. 
 
-### [Code 14 - Characters and cstring](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/14.%2014. Characters_and_C-string/main.cpp)
+### [Code 14 - Characters and cstring](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/14.%20Characters_and_C-string/main.cpp)
 
 c-string:
 concatenation
@@ -265,7 +265,7 @@ swap
 ### [Code 17 - std::string miscellaneous](https://github.com/Sk-22-2-11/Modern-cpp-coding/blob/main/17.%20StdString_miscellaneous/main.cpp)
 
 string to number
-number to srtring
+number to string
 
 string literal:
 [R"()"](https://en.cppreference.com/w/cpp/language/string_literal)
