@@ -338,9 +338,9 @@ class Show_Case{
 
         int show_menu(){
             std::clog << "--- Testing table: ---" << std::endl;
-            std::clog << "- 1 - Danling pointers" << std::endl;
-            std::clog << "- 2 - Dynamic allocate" << std::endl;
-            std::clog << "- 3 - Memory leak" << std::endl;
+            std::clog << "- 1 - std string initialization" << std::endl;
+            std::clog << "- 2 - Basic options" << std::endl;
+            std::clog << "- 3 - Moidification" << std::endl;
             std::clog << "- 0 - exit" << std::endl;
             std::clog << "please input: " << std::endl;
             return 0;
